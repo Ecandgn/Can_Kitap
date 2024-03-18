@@ -1,4 +1,4 @@
-package Day16_WhileLoop_doWhileloop;
+package day16_WhileLoop_doWhileloop;
 
 import java.util.Scanner;
 
