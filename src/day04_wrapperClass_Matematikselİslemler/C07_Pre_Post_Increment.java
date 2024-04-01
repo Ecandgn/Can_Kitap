@@ -1,23 +1,26 @@
 package day04_wrapperClass_Matematikselİslemler;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class C07_Pre_Post_Increment {
     public static void main(String[] args) {
-        int a = 10;
-        System.out.println("a nın değeri =" + ++a); //11
+        int[] arr = {3, 3, 6, 4, 7, 8, 5, 2, 4, 6, 9, 87, 5,};
 
-        int b = a++;
-        System.out.println("b nın değeri : " + b); //11
-        System.out.println("a nın değeri : " + a); //12
+        List<Integer> benzerizList = new ArrayList<>();
+        for (int each : arr
+        ) {
+            if (!benzerizList.contains(each)) {
+                benzerizList.add(each);
+            }
+        }
+        System.out.println(benzerizList);
+        arr = new int[benzerizList.size()];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = benzerizList.get(i);
 
-        int c = b++ + a;
-        System.out.println("c değeri ;" + c); //23
-        System.out.println("b değeri ; " + b); //12
-        System.out.println("a değeri : " + a); //12
-
-        int s = 10;
-        int e = ++s;
-        System.out.println("s : " + s++ + ", e : " + e); //s : 11,e : 1
-        System.out.println("s değeri : "+ s); //12
-
+        }
+        System.out.println(benzerizList);
     }
+
 }

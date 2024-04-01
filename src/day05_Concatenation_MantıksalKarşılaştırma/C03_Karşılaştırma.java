@@ -2,8 +2,9 @@ package day05_Concatenation_MantıksalKarşılaştırma;
 
 public class C03_Karşılaştırma {
     public static void main(String[] args) {
+
         int a = 5;
-        System.out.println(2 * a + 4 == 14); //false
+        System.out.println(2 * a + 4 == 14); //true
 
         System.out.println(a + 4 == 2 * a - 1); //9==9 true
 
