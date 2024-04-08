@@ -15,6 +15,11 @@ public class C01_Return {
         System.out.println(str.indexOf("a")); //1
         System.out.println(str.indexOf("x")); // -1
         System.out.println(str.contains("Jav")); // true
+        str.substring(7);
+        /*
+        substring methodu bize String döndürüyor 28. satırdaki kod çalışır vr
+        bi"laydır" return eder ancak
+         */
 
     }
 }
