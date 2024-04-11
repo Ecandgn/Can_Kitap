@@ -8,7 +8,8 @@ Bit class'da overloading varsa o method çağrıldığından java hangi methodun
     */
         toplama('a', 'b'); //toplam char char
        //  toplama("Ali", 5);
-        toplama(3.4f,6); // en az casting işlemi papacağını kullanır. yani double int methodunu kullanır
+        toplama(3.4f,6); // en az casting işlemi papacağını kullanır. yani double int methodunu kullanır.
+    toplama(3.4f ,6);
     }
 
     public static void toplama(int a, int b) {
