@@ -3,9 +3,10 @@ package day17_scope;
 public class C03_ClasLevelVeriablelar {
    /*
    1- class level variable'ları scope'u BUTUN CLASS'dır. ancak
-   class level variable'larda static keyword'u etkilidir.(statiğe üye ise heryerde kullanılabilinir)
+   class level variable'larda method içerisinde direk kullanılıp
+    kullanılmaması static keyword'u etkilidir.(statiğe üye ise heryerde kullanılabilinir)
    2-Variable static olarak işaretlenmişse her yerde  direk kullanılabilir
-   ama variable static değilse static methodlarda kullanılamaz
+   ama variable static değilse(Instance) static methodlarda kullanılamaz
     3- static keybord'u methodlar içinde kullanılır
     static methodlar bünyelerine static olmayan variable ve methodları kabul etmazler
     4- class level variablerde değer atanmadan oluşturulabilir ve kullanılabilir
