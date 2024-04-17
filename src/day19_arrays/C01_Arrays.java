@@ -9,7 +9,7 @@ public class C01_Arrays {
         // array'ın 2.indekdeki elemnti yazdırın
 
         System.out.println(arr[2]);
-
+        System.out.println(Arrays.toString(arr));
         //1. indekse 5 değerini atayın
 
         arr[1] = 5;
@@ -17,7 +17,7 @@ public class C01_Arrays {
 
         System.out.println(arr); //
 
-        System.out.println(Arrays.toString(arr));//array yazdırıldı burada
+        System.out.println(Arrays.toString(arr));//tüm array yazdırıldı burada
 
         //arrayın içinde kaç elelman olduğunu yazdırın (lenght)
         System.out.println(arr.length); //4
