@@ -9,6 +9,11 @@ public class C01_Araba {
     C01_Araba() {
 
     }
+    /*
+    bir obje oluşturulduğunda clasdaki standart özelliklere sahip olur ve
+    sonradan tek tek bu özelliklere değer ataması yapılır araba1 gibi
+
+     */
 
     C01_Araba(String mrk, String mdl, int yl, int fyt) {
         marka = mrk;
