@@ -1,11 +1,13 @@
 package day28_staticKeyword;
 
+import java.util.Stack;
+
 public class C00_Hastane {
-    static String hastaneIsmi = "Yıldız hastanesi";
-    static String hastaneAdres = "Çankaya";
+    static String hastaneIsmi = "Yıldız Hastanesi";
+    static String hastaneAdresi = "Cankaya";
     static String bashekimismi = "Ilgar";
 
-    static String personelIsmı = "Değer Atanmadı";
-    static String personelAdres = "Adres girilmedi";
-    static String personelTel = "Telefon Girilmedi";
+     String personelIsmi = "Deger atanmadı";
+     String personelAdres = "Adres Grilmedi";
+     String personelTel = "Telefon Girilmedi";
 }
