@@ -9,7 +9,8 @@ public class C01_ObjelerleStaticVariableKullanimi {
         System.out.println(hemsire1.personelIsmi);
         System.out.println(hemsire1.personelTel); //Telefon Girilmedi
 
-        //static bir variable obje üzerinden ulaşmak için tamamını yazmamız gerekir otomatik getirmez.
+        //static bir variable obje üzerinden ulaşmak için tamamını
+        // yazmamız gerekir otomatik getirmez.
 
         System.out.println(hemsire1.hastaneIsmi); //  Yıldız Hastanesi
         System.out.println(C00_Hastane.hastaneIsmi); // Yıldız Hastanesi

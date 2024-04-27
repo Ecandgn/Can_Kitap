@@ -7,7 +7,7 @@ public class C00_Hastane {
     static String hastaneAdresi = "Cankaya";
     static String bashekimismi = "Ilgar";
 
-     String personelIsmi = "Deger atanmadı";
-     String personelAdres = "Adres Grilmedi";
-     String personelTel = "Telefon Girilmedi";
+    String personelIsmi = "Deger atanmadı";
+    String personelAdres = "Adres Grilmedi";
+    String personelTel = "Telefon Girilmedi";
 }
