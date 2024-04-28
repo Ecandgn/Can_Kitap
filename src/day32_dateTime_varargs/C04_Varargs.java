@@ -15,8 +15,7 @@ public class C04_Varargs {
 
     public static void islem(int ilkSayi, int... kalanSayilar) {
         int toplam = 0;
-        for (int each : kalanSayilar
-        ) {
+        for (int each : kalanSayilar) {
             toplam += each;
         }
         System.out.println("İşlem Sonucu:" + toplam + ilkSayi);
