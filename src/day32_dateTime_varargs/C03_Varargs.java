@@ -14,11 +14,12 @@ public class C03_Varargs {
         topla(1, 2, 3, 4, 5, 6, 7);
     }
 
-    public static void topla(int... sayilar) {
+    public static void topla(int... sayilar) { // methodlardaki aynı türden olan parametrelerin sayısı konusuda esneklik sağlar
         int toplam = 0;
         for (int each : sayilar) {
-
+            toplam+=each;
         }
+        System.out.println(toplam);
     }
 
     public static void topla(int a, int b) {
