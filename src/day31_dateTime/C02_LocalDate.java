@@ -19,9 +19,11 @@ public class C02_LocalDate {
         LocalDate dogumTarihi1 = LocalDate.of(1995, 10, 23);
         LocalDate dogumTarihi2 = LocalDate.of(1995, Month.OCTOBER, 20);
         System.out.println(tarih.plusYears(5).plusMonths(7).plusDays(10));
-// verilen doğum tarihlerini eski olanı yadır
+// verilen doğum tarihlerini eski olanı yazdır.
         System.out.println(dogumTarihi1.isBefore(dogumTarihi2) ? dogumTarihi1 : dogumTarihi2);
         // verilen yılın artık yıl olup olmadığını yazdırın
         System.out.println(dogumTarihi1.isLeapYear());
+
+
     }
 }
