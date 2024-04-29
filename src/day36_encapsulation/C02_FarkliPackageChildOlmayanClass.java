@@ -1,5 +1,6 @@
 package day36_encapsulation;
 
+import day14_methodOluşturmaVeKullanma.C04_Palindrome;
 import day35_accesModiFiers.C02_Depo;
 
 public class C02_FarkliPackageChildOlmayanClass {
@@ -15,6 +16,10 @@ public class C02_FarkliPackageChildOlmayanClass {
         //System.out.println(depo.defaultSayi);
         //System.out.println(depo.protectedSayi);
         System.out.println(depo.publicSayi);
+
+        System.out.println(C04_Palindrome.isPalidrome("java candir"));  //false
+
+
     }
 }
 
