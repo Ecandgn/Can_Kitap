@@ -2,11 +2,11 @@ package day36_encapsulation;
 
 public class C08_Toyota extends C07_Araba {
 
-    String marka = "Toyota";
-    String uretimYeri = "Japonya Türkiye";
-    String aku = "İnci akü";
-    String guvenlik = "ABS";
-    String kasa = "Kasa belirtilmedi";
-    String teker = "Pirelli";
+    public String marka = "Toyota";
+    public String uretimYeri = "Japonya Türkiye";
+    public String aku = "İnci akü";
+    public String guvenlik = "ABS";
+    public  String kasa = "Kasa belirtilmedi";
+    public  String teker = "Pirelli";
 
 }
