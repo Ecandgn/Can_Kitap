@@ -48,9 +48,9 @@ public class C05_Child extends C04_Parent {
         //override edilemez
     }
 
-    public void
 
-    int method8() {
+
+    public double method8(){
         //return type da signutere dahil değildir
         // ama overridding de önemlidir.
         //  parent class daki methodun return type
@@ -59,23 +59,14 @@ public class C05_Child extends C04_Parent {
         return 8;
     }
 
-    public String method9() {
-        /* eğer return type non-primitive ise
-        chil class daki return type
-        ya parent daki return type ile aynı olmalı
-        yada parent daki return type in child i olabilir
-        */
-        return "Java";
-    }
 
-    public String method9() {
+    public String[] method9(){
         // Eger return type non-primitive ise
         // child class'daki return type
         // ya parent'daki return type ile ayni olmali
         // ya da parent'daki return type'in child'i olabilir
         // Bu iliskiye co-variant data turu denir
-
-        return "Java";
+        return null;
     }
 
     public void method10() {
