@@ -3,16 +3,19 @@ package day41_abstractClasses_Interfaces;
 public class C02_javaCar extends C01_AbstractCar {
     @Override
     public void motor() {
+        System.out.println("Java car Motor");
 
     }
 
     @Override
     public void yakit() {
+        System.out.println("Java car yakit");
 
     }
 
     @Override
     public void sanzuman() {
+        System.out.println("Java car sanzuman");
         // parent abstract class daki
         // abstract methodları child class'a
         //imlement (uyarlama)etmek zorundayız
