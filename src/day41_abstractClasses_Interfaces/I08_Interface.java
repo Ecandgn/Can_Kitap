@@ -1,5 +1,8 @@
 package day41_abstractClasses_Interfaces;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public interface I08_Interface {
     public static final int sayi = 10;
     public int A = 5;  // Modifier 'public' is redundant for interface members
