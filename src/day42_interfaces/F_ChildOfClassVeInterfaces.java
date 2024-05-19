@@ -25,7 +25,7 @@ public class F_ChildOfClassVeInterfaces extends E_ParentClass implements A_Paren
     implement etme zorunluluğu yoktur.
      */
     public static void main(String[] args) {
-       // System.out.println(SAYI);
+       // System.out.println(SAYI); // hangi SAYI olduğunu anlamıyor o yüzden CTE hatası verir
         System.out.println(A_ParentInterface01.SAYI);
         System.out.println(D_ParentInterface03.SAYI);
         System.out.println(E_ParentClass.SAYI);
